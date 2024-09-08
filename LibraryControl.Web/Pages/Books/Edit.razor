@@ -1,0 +1,69 @@
+﻿@page "/lancamentos/editar/{id}"
+@inherits EditBookPage
+
+<MudText Typo="Typo.h3">Editar Livro</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+    <EditForm Model="@InputModel" OnValidSubmit="OnValidSubmitAsync">
+        <DataAnnotationsValidator />
+
+        <MudTextField Label="Título"
+                      HelperText="Campo obrigatório"
+                      @bind-Value="InputModel.Title"
+                      For="@(() => InputModel.Title)" />
+
+        <MudSelect T="EGenre"
+                   Label="Gênero"
+                   AnchorOrigin="Origin.BottomCenter"
+                   @bind-Value="InputModel.Genre">
+            <MudSelectItem T="EGenre" Value="EGenre.Ficcao">
+                Ficção
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.Conto">
+                Conto
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.Fantasia">
+                Fantasia
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.AcaoEAventura">
+                Ação e Aventura
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.Romance">
+                Romance
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.Horror">
+                Terror
+            </MudSelectItem>
+            <MudSelectItem T="EGenre" Value="EGenre.Infantil">
+                Infantil
+            </MudSelectItem>
+        </MudSelect>
+
+        <MudSelect T="long"
+                   Label="Categoria"
+                   @bind-Value="InputModel.CategoryId"
+                   AnchorOrigin="Origin.BottomCenter">
+            @foreach (var category in Categories)
+            {
+                <MudSelectItem T="long" Value="@category.Id">
+                    @category.Title
+                </MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudTextField Label="Autor"
+                      @bind-Value="InputModel.Autor"
+                      For="@(() => InputModel.Autor)" />
+
+        <MudTextField Label="Nota"
+                      @bind-Value="InputModel.Nota"
+                      For="@(() => InputModel.Nota)" />
+
+        <MudButton ButtonType="ButtonType.Submit"
+                   Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   Class="mt-4">
+            Salvar
+        </MudButton>
+    </EditForm>
+</MudPaper>

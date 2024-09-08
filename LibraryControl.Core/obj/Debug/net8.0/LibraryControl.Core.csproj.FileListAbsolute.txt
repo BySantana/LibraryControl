@@ -1,0 +1,11 @@
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\bin\Debug\net8.0\LibraryControl.Core.deps.json
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\bin\Debug\net8.0\LibraryControl.Core.dll
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\bin\Debug\net8.0\LibraryControl.Core.pdb
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.AssemblyInfoInputs.cache
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.AssemblyInfo.cs
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.dll
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\refint\LibraryControl.Core.dll
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.pdb
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\ref\LibraryControl.Core.dll
