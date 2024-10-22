@@ -37,6 +37,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Diego/source/repos/LibraryControl/LibraryControl.Web/Components/Reports/AvgBooksByMonthChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBvcnRzXEF2Z0Jvb2tzQnlNb250aENoYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diego/source/repos/LibraryControl/LibraryControl.Web/Components/Reports/BooksByCategoryChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBvcnRzXEJvb2tzQnlDYXRlZ29yeUNoYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Diego/source/repos/LibraryControl/LibraryControl.Web/Layout/HeadlessLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRsZXNzTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

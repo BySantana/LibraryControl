@@ -22,4 +22,8 @@
     <ProjectReference Include="..\LibraryControl.Core\LibraryControl.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Views\" />
+  </ItemGroup>
+
 </Project>

@@ -129,6 +129,7 @@ C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\L
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\LibraryControl.API.csproj.CoreCompileInputs.cache
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\LibraryControl.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\LibraryControl.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\LibraryControl.API.sourcelink.json
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.API\obj\Debug\net8.0\staticwebassets\msbuild.LibraryControl.API.Microsoft.AspNetCore.StaticWebAssets.props

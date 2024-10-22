@@ -5,6 +5,7 @@ C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.AssemblyInfoInputs.cache
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.AssemblyInfo.cs
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.sourcelink.json
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.dll
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\refint\LibraryControl.Core.dll
 C:\Users\Diego\source\repos\LibraryControl\LibraryControl.Core\obj\Debug\net8.0\LibraryControl.Core.pdb

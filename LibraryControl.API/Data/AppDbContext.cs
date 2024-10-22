@@ -4,6 +4,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using LibraryControl.API.Models;
 using Microsoft.AspNetCore.Identity;
+using LibraryControl.Core.Models.Reports;
 
 namespace LibraryControl.API.Data
 {
@@ -20,12 +21,22 @@ namespace LibraryControl.API.Data
             IdentityUserToken<long>
         >(options)
     {
-        public DbSet<Book> Books { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Book> Books { get; set; } = null!;
+        public DbSet<Category> Categories { get; set; } = null!;
+        public DbSet<BooksByCategory> BooksByCategories { get; set; } = null!;
+        public DbSet<AvgBooksByMonth> AvgBooksByMonths { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            modelBuilder.Entity<BooksByCategory>()
+                .HasNoKey()
+                .ToView("vwGetBooksByCategory");
+            
+            modelBuilder.Entity<AvgBooksByMonth>()
+                .HasNoKey()
+                .ToView("vwGetAvgBooksByMonth");
         }
     }
 }

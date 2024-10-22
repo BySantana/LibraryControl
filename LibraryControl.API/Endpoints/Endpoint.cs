@@ -2,6 +2,7 @@
 using LibraryControl.API.Endpoints.Books;
 using LibraryControl.API.Endpoints.Categories;
 using LibraryControl.API.Endpoints.Identity;
+using LibraryControl.API.Endpoints.Reports;
 using LibraryControl.API.Models;
 
 namespace LibraryControl.API.Endpoints
@@ -44,6 +45,12 @@ namespace LibraryControl.API.Endpoints
                 .RequireAuthorization()
                 .MapEndpoint<LogoutEndpoint>()
                 .MapEndpoint<GetRolesEndpoint>();
+
+            endpoints.MapGroup("v1/reports")
+                .WithTags("Reports")
+                .RequireAuthorization()
+                .MapEndpoint<GetBooksByCategoryEndpoint>()
+                .MapEndpoint<GetAvgBooksByMonthEndpoint>();
         }
 
         private static IEndpointRouteBuilder MapEndpoint<TEndpoint>(this IEndpointRouteBuilder app)

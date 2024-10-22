@@ -56,6 +56,7 @@ namespace LibraryControl.API.Common.Api
         {
             builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
             builder.Services.AddTransient<IBookHandler, BookHandler>();
+            builder.Services.AddTransient<IReportHandler, ReportHandler>();
         }
 
         public static void AddCrossOrigin(this WebApplicationBuilder builder)
